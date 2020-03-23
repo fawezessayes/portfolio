@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,mEAAI;AAEZ,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,kBAAkB;CAClC;;AWND,AAAA,eAAe,CAAA;ETCX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EASf,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;CSVrB;;AACD,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,GAAG;EACV,YAAY,EAAE,GAAG;CACpB",
+    "sources": [
+        "main.scss",
+        "base/_base.scss",
+        "base/_typography.scss",
+        "abstracts/_helpers.scss",
+        "abstracts/_mixins.scss",
+        "abstracts/_variables.scss",
+        "sections/_hero.scss",
+        "sections/_about.scss",
+        "sections/_projects.scss",
+        "sections/_contact.scss",
+        "sections/_footer.scss",
+        "components/_container.scss",
+        "components/_buttons.scss",
+        "components/_project.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

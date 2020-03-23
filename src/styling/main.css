@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2&display=swap");
+html {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Baloo 2', cursive;
+}
+
+.proj_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+}
+
+.proj_txt {
+  width: 30%;
+  margin-right: 10%;
+}
+/*# sourceMappingURL=main.css.map */

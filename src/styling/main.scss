@@ -1,0 +1,17 @@
+//base
+@import "./base/base";
+@import "./base/typography";
+// abstracts
+@import "./abstracts/helpers";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+// Sections
+@import "./sections/hero";
+@import "./sections/about";
+@import "./sections/projects";
+@import "./sections/contact";
+@import "./sections/footer";
+// Components
+@import './components/container';
+@import "./components/buttons";
+@import "./components/project";

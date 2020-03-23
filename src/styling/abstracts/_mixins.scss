@@ -1,0 +1,16 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin section ($is_polygon){
+    @include flex();
+    @if $is_polygon{
+        padding: 3rem 22.5% 10rem 22.5%;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        background-image: $btn_bg;
+    }@else{
+        font-size: 1.4rem;
+        margin: 2rem 0;
+    }
+}

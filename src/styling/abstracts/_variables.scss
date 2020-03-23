@@ -1,0 +1,14 @@
+$name: "Your Name";
+// Colors
+// gradient colors;
+$primary: #02aab0;
+$secondary:  #00cdac;
+// btn colors
+$border: $primary;
+$btn_bg: linear-gradient(135deg, $primary 0%, $secondary 100%);
+// text color
+$txt_primary: #000;
+$txt_secondary: #fff;
+
+// sizes
+$root_font_size: 16px;
