@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fawezessayes.github.io/static/css/main.23b90c2c.chunk.css",
+    "main.js": "/fawezessayes.github.io/static/js/main.db32ff1b.chunk.js",
+    "main.js.map": "/fawezessayes.github.io/static/js/main.db32ff1b.chunk.js.map",
+    "runtime-main.js": "/fawezessayes.github.io/static/js/runtime-main.2e121e22.js",
+    "runtime-main.js.map": "/fawezessayes.github.io/static/js/runtime-main.2e121e22.js.map",
+    "static/css/2.221380cf.chunk.css": "/fawezessayes.github.io/static/css/2.221380cf.chunk.css",
+    "static/js/2.d8db953a.chunk.js": "/fawezessayes.github.io/static/js/2.d8db953a.chunk.js",
+    "static/js/2.d8db953a.chunk.js.map": "/fawezessayes.github.io/static/js/2.d8db953a.chunk.js.map",
+    "index.html": "/fawezessayes.github.io/index.html",
+    "precache-manifest.2870df8fd2340c2cc87425a605fa1df5.js": "/fawezessayes.github.io/precache-manifest.2870df8fd2340c2cc87425a605fa1df5.js",
+    "service-worker.js": "/fawezessayes.github.io/service-worker.js",
+    "static/css/2.221380cf.chunk.css.map": "/fawezessayes.github.io/static/css/2.221380cf.chunk.css.map",
+    "static/css/main.23b90c2c.chunk.css.map": "/fawezessayes.github.io/static/css/main.23b90c2c.chunk.css.map",
+    "static/js/2.d8db953a.chunk.js.LICENSE.txt": "/fawezessayes.github.io/static/js/2.d8db953a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e121e22.js",
+    "static/css/2.221380cf.chunk.css",
+    "static/js/2.d8db953a.chunk.js",
+    "static/css/main.23b90c2c.chunk.css",
+    "static/js/main.db32ff1b.chunk.js"
+  ]
+}
