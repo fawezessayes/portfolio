@@ -1,0 +1,26 @@
+.hero{
+    @include flex();
+    height: 100ch;
+    .hero_container{
+        width: 60%;
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+        top: -2rem;
+        h1{
+            line-height: 1.5rem;
+            font-size: 4rem;
+            margin: 0;
+        }
+        #hi{
+            &::after{
+                content: $name;
+                color: $secondary;
+                font-size: 1em;
+            }
+        }
+        #job{
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -5,6 +5,153 @@ html {
   font-family: 'Baloo 2', cursive;
 }
 
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap row;
+          flex-direction: wrap row;
+  height: 100ch;
+}
+
+.hero .hero_container {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  top: -2rem;
+}
+
+.hero .hero_container h1 {
+  line-height: 1.5rem;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero .hero_container #hi::after {
+  content: "Your Name";
+  color: #00cdac;
+  font-size: 1em;
+}
+
+.hero .hero_container #job {
+  margin-bottom: 2rem;
+}
+
+.about_frame_container {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  padding: 3rem 22.5% 10rem 22.5%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  color: white;
+}
+
+.about_frame_container .container_title {
+  font-size: 2rem;
+  color: inherit;
+}
+
+.about_frame_container .about_container {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap row;
+          flex-direction: wrap row;
+}
+
+.about_frame_container .about_container .txt {
+  line-height: 1.2em;
+  width: 50%;
+}
+
+.about_frame_container .about_container img {
+  height: 100%;
+  width: 30%;
+  margin-right: 8rem;
+}
+
+#projs {
+  text-align: center;
+}
+
+#projs h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  padding: 3rem 0 5rem 0;
+  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+}
+
+.contact h1 {
+  font-size: 3rem;
+  margin: 4rem  0 1.5rem 0;
+}
+
+.btn {
+  color: #00cdac;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  border: solid 2px #00cdac;
+  color: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  display: inline-block;
+  position: relative;
+  padding: .5rem 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+
+.btn::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  width: 0px;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn:hover::after {
+  width: 100%;
+}
+
 .proj_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,12 +162,41 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 1.4rem;
-  margin: 2rem 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap row;
+          flex-direction: wrap row;
+  margin-bottom: 2rem;
+}
+
+.proj_container h1 {
+  font-size: 2rem;
+}
+
+.proj_container #src_code {
+  position: relative;
+  color: #00cdac;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 1rem;
+  -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+
+.proj_container #src_code:hover {
+  left: .5rem;
+}
+
+.proj_container img {
+  height: 100%;
+  width: 30%;
+  margin-left: 1rem;
 }
 
 .proj_txt {
-  width: 30%;
+  text-align: left;
+  width: 25%;
   margin-right: 10%;
 }
 /*# sourceMappingURL=main.css.map */

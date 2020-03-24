@@ -1,0 +1,20 @@
+.about_frame_container{
+    font-size: 1.2rem;
+    text-align: center;
+    @include polygon(true);
+    color: white;
+    .container_title{
+        @include container_title();
+    }
+    .about_container{
+        text-align: left;
+        .txt{
+            line-height: 1.2em;
+            width: 50%;
+        }
+        @include section(false);
+        img{
+            @include image(true)
+        }
+    }
+}

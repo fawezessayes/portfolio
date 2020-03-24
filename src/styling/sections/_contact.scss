@@ -1,0 +1,8 @@
+.contact{
+    text-align: center;
+    @include polygon(false);
+    h1{
+        font-size: 3rem;
+        margin: 4rem  0 1.5rem 0;
+    }
+}

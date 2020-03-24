@@ -17,10 +17,10 @@ function Project(props){
                     </p>
                     <section className="btn_container">
                         <button className="btn">See live</button>
-                        <p id="src-code">Source Code</p>
+                        <p id="src_code">Source Code</p>
                     </section>
                 </section>
-                <img src="https://lh3.googleusercontent.com/proxy/nqypfv2qKf18X7XU_5xRtdX3n3qy8gFIMe2X8HE01i1UdrTG7kdmpRiKwmI8OwC-ik8U9_Ivanwb1vcfeYdnyLONadWiIXeycHz44cKORHQqlukqJIrFhg" alt="project demo"/>
+                <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png" alt="project demo"/>
             </section>
     )
 }

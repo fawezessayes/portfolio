@@ -1,8 +1,27 @@
 .proj_container{
-    @include section(false);
-    
+    @include section(true);
+    h1{
+        font-size: 2rem;
+    }
+    #src_code{
+        position: relative;
+        color: $secondary;
+        font-size: 1.2rem;
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 1rem;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+        &:hover{
+            left: .5rem;
+        }
+    }
+    img{
+        @include image(false)
+    }
 }
 .proj_txt{
-    width: 30%;
+    text-align: left;
+    
+    width: 25%;
     margin-right: 10%;
 }

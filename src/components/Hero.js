@@ -3,10 +3,10 @@ import React from "react";
 function Hero(props){
     return(
         <section className="hero">
-            <section className="hero-container">
-                <h1 className="hi bounce">Hi, my name is </h1>
+            <section className="hero_container">
+                <h1 id="hi">Hi, my name is </h1>
                 <br/>
-                <h1 className="job">I'm the Unknown Developper.</h1>
+                <h1 id="job">I'm the Unknown Developper.</h1>
                 <div className="button">
                     <button className="btn">Learn more</button>
                 </div>

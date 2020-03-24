@@ -14,9 +14,9 @@ function About(props){
                     harum voluptas cum tenetur optio nemo, architecto
                     voluptates fugit illo?
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                     Fugit in, sequi molestias earum labore expedita quibusdam 
-                     similique facilis veniam explicabo dolorem ab hic,
-                     repellendus iste fuga esse sint iure incidunt!
+                    Fugit in, sequi molestias earum labore expedita quibusdam 
+                    similique facilis veniam explicabo dolorem ab hic,
+                    repellendus iste fuga esse sint iure incidunt!
                     </p>
                     <button className="btn">Learn more</button>
                 </section>

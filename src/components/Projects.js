@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project"
 function Projects(props){
     return(
-        <section id="frame_container">
+        <section id="projs">
             <h1>Projects</h1>
             <Project />
             <Project />

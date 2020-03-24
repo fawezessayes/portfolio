@@ -2,15 +2,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: wrap row;
 }
-@mixin section ($is_polygon){
-    @include flex();
-    @if $is_polygon{
+@mixin polygon ($is_about){
+    color: white;
+    @if $is_about{
         padding: 3rem 22.5% 10rem 22.5%;
         clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
         background-image: $btn_bg;
     }@else{
-        font-size: 1.4rem;
-        margin: 2rem 0;
+        clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+        padding: 3rem 0 5rem 0;
+        background-image: $btn_bg;
+    }
+}
+@mixin section ($is_project){
+    @include flex();
+    @if $is_project{
+        margin-bottom: 2rem;
+    }
+
+}
+@mixin container_title{
+    font-size: 2rem;
+    color: inherit;
+}
+@mixin image ($is_about){
+    @if $is_about {
+        height: 100%;
+        width: 30%;
+        margin-right: 8rem;
+    }@else{
+        height: 100%;
+        width: 30%;
+        margin-left: 1rem;
+
     }
 }
